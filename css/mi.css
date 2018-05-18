@@ -1,0 +1,2546 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 1em;
+	font-family: "微软雅黑",sans-serif;
+}
+li{
+	list-style: none;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+.header{
+	width: 100%;
+	height: 2.5em;
+	background: #333;
+}
+.header .top{
+	width: 76.6em;
+	margin: 0 auto;
+	line-height: 2.5em;
+	background: #333;
+}
+.header .top ul{
+	font-size: 0.6em;
+	background: #333;
+}
+.header .top ul li{
+	float: left;
+	cursor: pointer;
+}
+.header .top ul li a{
+	margin: 0 0.3em;
+	text-decoration: none;
+	color: #ccc;
+}
+.header .top ul li a:hover{
+	color: #fff;
+}
+.header .top ul li span{
+	margin: 0 0.3em;
+	color: #555;
+}
+.header .top .topleft{
+	float: left;
+	width: 67%;
+}
+.header .top .topright{
+	float: right;
+	width: 33%;
+}
+
+.header .top .topright li{
+	position: relative;
+	width: 25%;
+}
+
+.header .top .topright li:nth-child(1) a{
+	margin-left: 3em;
+}
+.header .top .topright li a .down{
+	position: absolute;
+	top: 1.6em;
+	left: 5.5em;
+	overflow: hidden;
+	float: left;
+	width: 1em;
+	height: 0.5em;
+}
+.header .top .topright li a .down i{
+	position: absolute;
+	top: -0.5em;
+	left: 0;
+	display: block;
+	width: 0.5em;
+	height: 0.5em;
+	border: 0.2em solid #ccc;
+	transform: rotate(-45deg);
+}
+.header .top .topright li span{
+	margin: 0 0.6em;
+}
+.header .top .topright li .user{
+	position: absolute;
+	width: 100%;
+	padding: 0.4em 0;
+	box-shadow: 0.1em 0.1em 0.1em 0.1em #eee;
+	background: #fff;
+	z-index: 10;
+	visibility: hidden;
+}
+.header .top .topright li .user span{
+	display: block;
+	width: 100%;
+	height: 2.6em;
+	margin: 0;
+	font-size: 0.7em;
+	line-height: 2.6em;
+	text-align: center;
+	cursor: pointer;
+}
+.header .top .topright li .user span:hover{
+	color: #f00;
+	background: #eee;
+}
+.header .top .topright li .cart{
+	position: absolute;
+	left: -150%;
+	width: 250%;
+	height: 5em;
+	box-shadow: 0.1em 0.1em 0.1em 0.1em #eee;
+	text-align: center;
+	line-height: 5em;
+	color: #000;
+	background: #fff;
+	z-index: 10;
+	visibility: hidden;
+}
+
+.topnav{
+	width: 100%;
+	height: 6.25em;
+	background: #fff;
+}
+.topnav .nav{
+	position: relative;
+	width: 76.6em;
+	margin: 0 auto;
+}
+.topnav .nav .logo{
+	width: 3.44em;
+	height: 3.44em;
+	padding: 1.4em 1.4em 1.4em 0;
+}
+
+.topnav .nav .game{
+	position: absolute;
+	left: 4.9em;
+	top: 0;
+	width: 9em;
+	height: 6.25em;
+}
+.topnav .nav .navbar{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 76.6em;
+	height: 6.25em;
+}
+.topnav .nav .navbar .main{
+	height: 6.25em;
+}
+.topnav .nav .navbar .main .mainB{
+	float: left;
+	height: 1.4em;
+	margin: 2.42em 0.2em;
+	font-size: 1em;
+ 
+}
+.topnav .nav .navbar .main .mainB:nth-child(1){
+	margin-left: 14em;
+}
+.topnav .nav .navbar .main .mainB a{
+	height: 1em;
+	margin: 0 0.5em;
+	cursor: pointer;
+}
+.topnav .nav .navbar .main .mainB .des{
+	position: absolute;
+	left: 0;
+	top: 6.25em;
+	width: 100%;
+	height: 14.44em;
+	border-top: 0.1em solid #eee;
+	box-shadow: 0.1em 0.1em 0.1em 0.1em #eee;
+	background: #fff;
+	visibility: hidden;
+}
+.topnav .nav .navbar .main .mainB .des ul{
+	width: 76.6em;
+	margin: 0 auto;
+
+}
+.topnav .nav .navbar .main .mainB .des ul li{
+	float: left;
+	width: 16.5%;
+	height: 14.44em;
+}
+.topnav .nav .navbar .main .mainB .des ul li div{
+	width: 100%;
+	height: 1em;
+	margin: 0.2em 0;
+	color: #f60;
+	text-align: center;
+}
+.topnav .nav .navbar .main .mainB .des ul li .new span{
+	font-size: 0.7em;
+	padding: 0.2em 1em;
+	border: 0.1em solid #f60;
+	cursor: pointer;
+}
+.topnav .nav .navbar .main .mainB .des ul li .pic{
+	width: 10em;
+	height: 6.875em;
+	margin: 1.5em auto;
+	cursor: pointer;
+}
+
+.topnav .nav .navbar .main .mainB .des ul li .pic img{
+	border-right: 0.1em solid #ccc;
+ 
+}
+.topnav .nav .navbar .main .mainB .des ul li:nth-last-child(1) .pic img{
+	border: none;
+}
+.topnav .nav .navbar .main .mainB .des ul li .name{
+	height: 1.3em;
+	margin: 0 auto;
+	font-size: 0.7em;
+	line-height: 1.3em;
+	text-align: center;
+
+}
+.topnav .nav .navbar .main .mainB .des ul li .name span{
+	color: #000;
+	cursor: pointer;
+}
+.topnav .nav .navbar .main .mainB .des ul li .price{
+	height: 1.2em;
+	margin: 0 auto;
+	font-size: 0.7em;
+	line-height: 1.2em;
+	text-align: center;
+
+}
+.topnav .nav .navbar .main .mainB .des ul li .price span{
+	color: #f60;
+	cursor: pointer;
+}
+.topnav .nav .searchbar{
+	position: absolute;
+	left: 58.7em;
+	top: 0;
+	display: block;
+	width: 17.8em;
+	height: 6.25em;
+}
+.topnav .nav .searchbar span{
+	float: left;
+}
+.topnav .nav .searchbar .search{
+	width: 14.3em;
+	height: 3.1em;
+	margin-top: 1.56em;
+}
+
+.topnav .nav .searchbar .searchbutton{
+	width: 3.2em;
+	height: 3.1em;
+	margin-top: 1.56em;
+	border: 0.1em solid #eee;
+}
+.topnav .nav .searchbar .search input{
+	width: 17em;
+	height: 3.75em;
+	border: 0.1em solid #eee;
+}
+.topnav .nav .searchbar .searchbutton i{
+	display: block;
+	width: 0.6em;
+	height: 0.6em;
+	border: 0.18em solid #777;
+	border-radius: 50%;
+	margin: 1em;
+}
+.topnav .nav .searchbar .searchbutton b{
+	position: absolute;
+	left: 16.2em;
+	top: 3.3em;
+	display: block;
+	width: 0.5em;
+	border: 0.1em solid #777;
+	transform: rotate(30deg);
+}
+
+.center{
+	width: 100%;
+	height: 28.75em;
+	background: #fff;
+}
+
+.center .banner{
+	position: relative;
+	width: 76.6em;
+	height: 28.75em;
+	margin: 0 auto;
+}
+.center .banner .pic{
+	position: absolute;
+	top: 0.05em;
+	overflow: hidden;
+	width: 76.6em;
+	height: 28.75em;
+	z-index: 0;
+	cursor: pointer;
+}
+.center .banner .pic li{
+	position: absolute;
+}
+.center .banner .pic li:nth-child(1){
+	z-index: 1;
+}
+.center .banner .dic{
+	position: absolute;
+	top: 12em;
+	left: 14.65em;
+	width: 62em;
+	height: 4.1em;
+	z-index: 9;
+}
+.center .banner .dic li{
+	position: absolute;
+	width: 1.4em;
+	height: 2.15em;
+	font-size: 2em;
+	line-height: 2em;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	background: #000;
+	opacity: 0.5;
+	visibility: hidden;
+	z-index: 9;
+
+}
+.center .banner .dic li:nth-child(1){
+	left: 0;
+}
+.center .banner .dic li:nth-child(2){
+	right: 0;
+}
+
+.center .banner .sign{
+	position: absolute;
+	top: 26em;
+	left: 67em;
+	width: 9em;
+	height: 1em;
+	cursor: pointer;
+	z-index: 9;
+
+}
+.center .banner .sign li{
+	float: left;
+	width: 0.3em;
+	height: 0.3em;
+	border: 0.15em solid #999;
+	border-radius: 50%;
+	margin: 0 0.4em;
+	background: #777;
+}
+.center .banner .sign .signchecked{
+	background: #ccc;
+}
+
+
+
+.center .centerbanner{
+	width: 76.6em;
+	height: 28.75em;
+	margin: 0 auto;
+	z-index: 9;
+}
+
+.center .centerbanner .leftnav{
+	position: absolute;
+	top: 8.8em;
+	float: left;
+	width: 14.62em;
+	height: 28.9em;
+	z-index: 9;
+}
+
+.center .centerbanner .leftnav ul{
+	width: 14.62em;
+	height: 26.25em;
+	padding: 1.25em 0;
+	background: #533;
+}
+
+.center .centerbanner .leftnav ul li{
+	width: 100%;
+	height: 2.62em;
+	cursor: pointer;
+}
+
+.center .centerbanner .leftnav ul li span{
+	height: 2.62em;
+	margin-left: 2em;
+	line-height: 2.62em;
+	color: #fff;
+
+}
+
+.center .centerbanner .leftnav ul li i{
+	float: right;
+	height: 2.62em;
+	padding-right: 1.8em;
+	line-height: 2.62em;
+	font-style: normal;
+	color: #fff;
+
+}
+.center .centerbanner .leftnav ul li:hover{
+	background: #f60;
+}
+.center .centerbanner .leftnav ul li ul{
+	position: absolute;
+	overflow: hidden;
+	width: 15.5em;
+	height: 28.8em;
+	padding: 0;
+	background: #fff;
+	z-index: 10;
+	visibility: hidden;
+}
+.center .centerbanner .leftnav ul li .detial{
+	left: 14.63em;
+	top: 0;
+}
+.center .centerbanner .leftnav ul li .detial1{
+	left: 30.13em;
+	top: 0;
+}
+.center .centerbanner .leftnav ul li .detial2{
+	left: 45.63em;
+	top: 0;
+}
+.center .centerbanner .leftnav ul li .detial3{
+	left: 61.13em;
+	top: 0;
+}
+.center .centerbanner .leftnav ul li ul li:hover{
+	background: #fff;
+}
+.center .centerbanner .leftnav ul li ul li{
+	position: relative;
+	width: 16.75em;
+	height: 4.68em;
+	margin: 0;
+	cursor: pointer;
+}
+
+.center .centerbanner .leftnav ul li ul li span{
+	position: absolute;
+	width: 2.5em;
+	height: 2.5em;
+	margin: 1.1em 1em;
+}
+
+.center .centerbanner .leftnav ul li ul li i{
+	position: absolute;
+	left: 6em;
+	top: 1.8em;
+	width: 11.5em;
+	height: 2em;
+	font-size: 0.75em;
+	font-style: normal;
+	color: #000;
+
+}
+.center .centerbanner .leftnav ul li ul li i:hover{
+	color: #f00;
+}
+.center .centerbanner .leftnav ul li ul li b{
+	position: absolute;
+	left: 14em;
+	top: 2.2em;
+	width: 2em;
+	height: 1.3em;
+	padding: 0.2em 1.5em;
+	font-size: 0.75em;
+	font-weight: 500;
+	color: #f60;
+	border: 0.1em solid #f60;
+}
+
+.Bbanner{
+	width: 100%;
+	height: 11.37em;
+	background: #fff;
+}
+
+.Bbanner .BottomB{
+	width: 76.6em;
+	height: 10.62em;
+	margin: 0.75em auto;
+
+}
+.Bbanner .BottomB li{
+	float: left;
+	width: 18.55em;
+	height: 10.62em;
+	margin-right: 0.75em;
+	cursor: pointer;
+}
+.Bbanner .BottomB li:nth-child(4){
+	margin-right: 0;
+}
+
+.star{
+	width: 100%;
+	height: 28.3em;
+	background: #fff;
+}
+.star .con{
+	width: 76.6em;
+	height: 28.3em;
+	margin: 0 auto;
+}
+.star .con .title{
+	position: relative;
+	width: 76.6em;
+	height: 3.625em;
+}
+.star .con .title p{
+	width: 8em;
+	height: 2.6em;
+	font-weight: 200;
+	font-size: 1.4em;
+	line-height: 2.6em;
+	color: #000;
+}
+.star .con .title p span{
+	position: absolute;
+	display: block;
+	width: 2.2em;
+	height: 1em;
+	border: 0.08em solid #eee;
+	line-height: 1em;
+	font-weight: bold;
+	text-align: center;
+	color: #999;
+	cursor: pointer;
+}
+
+.star .con .title .left{
+	top: 1em;
+	right: 2.4em;
+}
+.star .con .title .right{
+	top: 1em;
+	right: 0.2em;
+}
+.star .con .title span:hover{
+	color: #f00;
+}
+
+.star .con ul{
+	position: absolute;
+	width: 76.6em;
+	height: 24em;
+	margin: 0.63em auto;
+	background: #fff;
+}
+.star .con .left1{
+	visibility: visible;
+}
+.star .con .right1{
+	visibility: hidden;
+}
+
+.star .con ul li{
+	float: left;
+	width: 14.75em;
+	height: 21em;
+	margin-right: 0.7em;
+	background: #eee;
+}
+.star .con ul li:nth-child(5){
+	margin-right: 0;
+}
+.star .con ul li span{
+	display: block;
+	width: 10em;
+	height: 10em;
+	margin: 2.44em 0 0 2.35em;
+	cursor: pointer;
+}
+
+.star .con ul li:nth-child(5){
+	margin-right: 0;
+}
+.star .con ul li b{
+	display: block;
+	height: 1em;
+	margin: 2em auto 0;
+	font-weight: 500;
+	text-align: center;
+	cursor: pointer;
+}
+.star .con ul li i{
+	display: block;
+	height: 1em;
+	margin: 0.8em auto 0;
+	font-size: 0.8em;
+	font-weight: 500;
+	font-style: normal;
+	text-align: center;
+	color: #999;
+	cursor: pointer;
+}
+.star .con ul li em{
+	display: block;
+	height: 1em;
+	margin: 1.2em auto 0;
+	font-size: 0.8em;
+	font-weight: 500;
+	font-style: normal;
+	text-align: center;
+	color: #f00;
+	cursor: pointer;
+}
+
+
+.appliance{
+	width: 100%;
+	height: 44em;
+	background: #eee;
+}
+.appliance .con{
+	width: 76.6em;
+	height: 44em;
+	margin: 0 auto;
+}
+.appliance .con .title{
+	position: relative;
+	width: 76.6em;
+	height: 3.625em;
+}
+
+.appliance .con .title p:nth-child(1){
+	position: absolute;
+	width: 8em;
+	height: 2.6em;
+	font-weight: 200;
+	font-size: 1.4em;
+	line-height: 2.6em;
+	color: #000;
+}
+.appliance .con .title p:nth-child(2){
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 15em;
+	height: 3.625em;
+}
+
+.appliance .con .title p i{
+	padding: 0.2em 0.5em;
+	font-style: normal;
+	line-height: 3.225em;
+	cursor: pointer;
+}
+.appliance .con .title p .checked{
+	border-bottom: 0.2em solid #f00;
+	color: #f00;
+}
+.appliance .con .detail{
+	position: relative;
+	width: 76.6em;
+	height: 39.25em;
+	margin-top: 1em;
+}
+.appliance .con .detail span{
+	position: absolute;
+	top: 0;
+	display: block;
+	width: 14.6em;
+	height: 39.25em;
+}
+.appliance .con .detail span:hover{
+	box-shadow: 0.1em 0.1em 0.5em 0.5em #ccc;
+}
+
+.appliance .con .detail ul{
+	position: absolute;
+	left: 16.6em;
+	width: 61.6em;
+	height: 39.25em;
+}
+.appliance .con .detail ul li{
+	position: relative;
+	float: left;
+	display: block;
+	overflow: hidden;
+	width: 14.5em;
+	height: 19em;
+	text-align: center;
+	background: #fff;
+	margin-bottom: 0.7em;
+	margin-right: 0.5em;
+}
+.appliance .con .detail ul li:hover{
+	box-shadow: 0.1em 0.1em 0.5em 0.5em #ccc;
+}
+.appliance .con .detail ul li b{
+	position: absolute;
+	left: 6.5em;
+	width: 5em;
+	height: 1.3em;
+	font-weight: 500;
+	font-size: 0.8em;
+	background: #0f0;
+ 
+}
+.appliance .con .detail ul li span{
+	position: absolute;
+	left: 2.56em;
+	top: 2.1em;
+	width: 9.375em;
+	height: 9.375em;
+	cursor: pointer;
+}
+.appliance .con .detail ul li span:hover{
+	box-shadow: none;
+}
+
+
+.appliance .con .detail ul li .title1{
+	position: absolute;
+	left: 0.1em;
+	top: 14em;
+	width: 16em;
+	height: 1.2em;
+	font-size: 0.9em;
+	font-weight: 500;
+	font-style: normal;
+	text-align: center;
+	cursor: pointer;
+}
+.appliance .con .detail ul li .costdown{
+	position: absolute;
+	left: 0.1em;
+	top: 16em;
+	width: 16em;
+	height: 1.2em;
+	font-size: 0.9em;
+	font-weight: 500;
+	font-style: normal;
+	text-align: center;
+	color: #999;
+	cursor: pointer;
+}
+.appliance .con .detail ul li .price{
+	position: absolute;
+	top: 18em;
+	left: 3.8em;
+	width: 4em;
+	height: 1.2em;
+	font-size: 0.9em;
+	font-weight: 500;
+	font-style: normal;
+	color: #f00;
+	cursor: pointer;
+}
+.appliance .con .detail ul li .price2{
+	position: absolute;
+	top: 18em;
+	left: 8.5em;
+	width: 4em;
+	height: 1.2em;
+	font-size: 0.9em;
+	font-weight: 500;
+	font-style: normal;
+	text-decoration: line-through;
+	color: #999;
+	cursor: pointer;
+}
+.appliance .con .detail ul li:nth-child(8){
+	position: relative;
+	float: left;
+	width: 14.5em;
+	height: 9.25em;
+	background: #fff;
+	margin: 0 0.7em 0.5em 0;
+	cursor: pointer;
+}
+.appliance .con .detail ul li:nth-child(8) span{
+	position: absolute;
+	left: 8.5em;
+	top: 2em;
+	width: 5em;
+	height: 5em;
+}
+.appliance .con .detail ul li:nth-child(8) .title1{
+	position: absolute;
+	left: 2em;
+	top: 3.5em;
+	width: 5em;
+	height: 2em;
+}
+.appliance .con .detail ul li:nth-child(8) .price{
+	position: absolute;
+	left: 2em;
+	top: 5.5em;
+	width: 5em;
+	height: 2em;
+	text-align: left;
+}
+.appliance .con .detail ul li:nth-child(9){
+	position: relative;
+	float: left;
+	width: 14.5em;
+	height: 9.25em;
+	background: #fff;
+	margin: 0 0.7em 0.5em 0;
+	cursor: pointer;
+}
+.appliance .con .detail ul li:nth-child(9) i:nth-child(1){
+	position: absolute;
+	left: 2em;
+	top: 3em;
+	width: 4em;
+	height: 2em;
+	font-style: normal;
+	font-size: 0.9em;
+}
+.appliance .con .detail ul li:nth-child(9) i:nth-child(2){
+	position: absolute;
+	left: 2em;
+	top: 5em;
+	width: 4em;
+	height: 2em;
+	font-style: normal;
+	font-size: 0.9em;
+	text-align: left;
+}
+.appliance .con .detail ul li:nth-child(9) i:nth-child(3){
+	position: absolute;
+	left: 8em;
+	top: 2.7em;
+	display: block;
+	width: 2.8em;
+	height: 2.8em;
+	font-style: normal;
+	border-radius: 50%;
+	border: 0.3em solid #f60;
+}
+.appliance .con .detail ul li:nth-child(9) i:nth-child(4){
+	position: absolute;
+	left: 3.5em;
+	top: 1em;
+	display: block;
+	width: 1em;
+	height: 1em;
+	font-style: normal;
+	font-size: 2.5em;
+	color: #f60;
+}
+.appliance .con .detail ul li:nth-child(9) i:nth-child(5){
+	position: absolute;
+	left: 8.9em;
+	top: 4.22em;
+	display: block;
+	width: 1.2em;
+	border: 0.125em solid #f60;
+
+}
+
+.intelligence{
+	width: 100%;
+	height: 44em;
+	background: #eee;
+}
+.intelligence .con{
+	width: 76.6em;
+	height: 44em;
+	margin: 0 auto;
+}
+.intelligence .con .title{
+	position: relative;
+	width: 76.6em;
+	height: 3.625em;
+}
+
+.intelligence .con .title p:nth-child(1){
+	position: absolute;
+	width: 8em;
+	height: 2.6em;
+	font-weight: 200;
+	font-size: 1.4em;
+	line-height: 2.6em;
+	color: #000;
+}
+.intelligence .con .title p:nth-child(2){
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 16em;
+	height: 3.625em;
+}
+
+.intelligence .con .title p i{
+	padding: 0.2em 0.5em;
+	font-style: normal;
+	line-height: 3.225em;
+	cursor: pointer;
+}
+.intelligence .con .title p .checked{
+	border-bottom: 0.2em solid #f00;
+	color: #f00;
+}
+.intelligence .con .detail{
+	position: relative;
+	width: 76.6em;
+	height: 39.25em;
+	margin-top: 1em;
+}
+.intelligence .con .detail span{
+	position: absolute;
+	top: 0;
+	display: block;
+	width: 14.6em;
+	height: 19em;
+	cursor: pointer;
+}
+.intelligence .con .detail .top{
+	top: 0;
+}
+.intelligence .con .detail .top:hover{
+	box-shadow: 0.1em 0.1em 0.5em 0.5em #ccc;
+}
+.intelligence .con .detail .bottom{
+	top: 19.7em;
+}
+.intelligence .con .detail .bottom:hover{
+	box-shadow: 0.1em 0.1em 0.5em 0.5em #ccc;
+}
+
+.intelligence .con .detail ul{
+	position: absolute;
+	left: 16.6em;
+	width: 61.6em;
+	height: 39.25em;
+}
+.intelligence .con .detail ul li{
+	position: relative;
+	float: left;
+	display: block;
+	overflow: hidden;
+	width: 14.5em;
+	height: 19em;
+	margin-bottom: 0.7em;
+	margin-right: 0.5em;
+	text-align: center;
+	background: #fff;
+}
+.intelligence .con .detail ul li:hover{
+	box-shadow: 0.1em 0.1em 0.5em 0.5em #ccc;
+}
+.intelligence .con .detail ul li b{
+	position: absolute;
+	left: 6.5em;
+	width: 5em;
+	height: 1.3em;
+	font-weight: 500;
+	font-size: 0.8em;
+	background: #0f0;
+}
+.intelligence .con .detail ul li span{
+	position: absolute;
+	left: 2.56em;
+	top: 2.1em;
+	width: 9.375em;
+	height: 9.375em;
+	cursor: pointer;
+}
+
+
+.intelligence .con .detail ul li .title1{
+	position: absolute;
+	left: 0.1em;
+	top: 14em;
+	width: 16em;
+	height: 1.2em;
+	font-size: 0.9em;
+	font-weight: 500;
+	font-style: normal;
+	text-align: center;
+	cursor: pointer;
+}
+.intelligence .con .detail ul li .costdown{
+	position: absolute;
+	left: 0.1em;
+	top: 16em;
+	width: 16em;
+	height: 1.2em;
+	font-size: 0.9em;
+	font-weight: 500;
+	font-style: normal;
+	text-align: center;
+	color: #999;
+	cursor: pointer;
+}
+.intelligence .con .detail ul li .price{
+	position: absolute;
+	top: 18em;
+	left: 3.8em;
+	width: 4em;
+	height: 1.2em;
+	font-size: 0.9em;
+	font-weight: 500;
+	font-style: normal;
+	color: #f00;
+	cursor: pointer;
+}
+.intelligence .con .detail ul li .price2{
+	position: absolute;
+	top: 18em;
+	left: 8.5em;
+	width: 4em;
+	height: 1.2em;
+	font-size: 0.9em;
+	font-weight: 500;
+	font-style: normal;
+	text-decoration: line-through;
+	color: #999;
+	cursor: pointer;
+}
+.intelligence .con .detail ul li:nth-child(8){
+	position: relative;
+	float: left;
+	width: 14.5em;
+	height: 9.25em;
+	margin: 0 0.7em 0.5em 0;
+	background: #fff;
+}
+.intelligence .con .detail ul li:nth-child(8) span{
+	position: absolute;
+	left: 8.5em;
+	top: 2em;
+	width: 5em;
+	height: 5em;
+}
+.intelligence .con .detail ul li:nth-child(8) .title1{
+	position: absolute;
+	left: 2em;
+	top: 3.5em;
+	width: 6em;
+	height: 2em;
+	text-align: left;
+}
+.intelligence .con .detail ul li:nth-child(8) .price{
+	position: absolute;
+	left: 2em;
+	top: 5.5em;
+	width: 5em;
+	height: 2em;
+	text-align: left;
+}
+.intelligence .con .detail ul li:nth-child(9){
+	position: relative;
+	float: left;
+	width: 14.5em;
+	height: 9.25em;
+	margin: 0 0.7em 0.5em 0;
+	cursor: pointer;
+	background: #fff;
+}
+.intelligence .con .detail ul li:nth-child(9) i:nth-child(1){
+	position: absolute;
+	left: 2em;
+	top: 3em;
+	width: 4em;
+	height: 2em;
+	font-style: normal;
+	font-size: 0.9em;
+}
+.intelligence .con .detail ul li:nth-child(9) i:nth-child(2){
+	position: absolute;
+	left: 2em;
+	top: 5em;
+	width: 4em;
+	height: 2em;
+	font-style: normal;
+	font-size: 0.9em;
+	text-align: left;
+}
+.intelligence .con .detail ul li:nth-child(9) i:nth-child(3){
+	position: absolute;
+	left: 8em;
+	top: 2.7em;
+	display: block;
+	width: 2.8em;
+	height: 2.8em;
+	font-style: normal;
+	border-radius: 50%;
+	border: 0.3em solid #f60;
+}
+.intelligence .con .detail ul li:nth-child(9) i:nth-child(4){
+	position: absolute;
+	left: 3.5em;
+	top: 1em;
+	display: block;
+	width: 1em;
+	height: 1em;
+	font-style: normal;
+	font-size: 2.5em;
+	color: #f60;
+}
+.intelligence .con .detail ul li:nth-child(9) i:nth-child(5){
+	position: absolute;
+	left: 8.9em;
+	top: 4.22em;
+	display: block;
+	width: 1.2em;
+	border: 0.125em solid #f60;
+
+}
+
+.collocations{
+	width: 100%;
+	height: 44em;
+	background: #eee;
+}
+.collocations .con{
+	width: 76.6em;
+	height: 44em;
+	margin: 0 auto;
+}
+.collocations .con .title{
+	position: relative;
+	width: 76.6em;
+	height: 3.625em;
+}
+
+.collocations .con .title p:nth-child(1){
+	position: absolute;
+	width: 8em;
+	height: 2.6em;
+	font-weight: 200;
+	font-size: 1.4em;
+	line-height: 2.6em;
+	color: #000;
+}
+.collocations .con .title p:nth-child(2){
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 17em;
+	height: 3.625em;
+}
+
+.collocations .con .title p i{
+	padding: 0.2em 0.5em;
+	font-style: normal;
+	line-height: 3.225em;
+	cursor: pointer;
+}
+.collocations .con .title p .checked{
+	border-bottom: 0.2em solid #f00;
+	color: #f00;
+}
+
+.collocations .con .detail{
+	position: relative;
+	width: 76.6em;
+	height: 39.25em;
+	margin-top: 1em;
+}
+.collocations .con .detail span{
+	position: absolute;
+	top: 0;
+	display: block;
+	width: 14.6em;
+	height: 19em;
+	cursor: pointer;
+}
+.collocations .con .detail .top{
+	top: 0;
+}
+.collocations .con .detail .top:hover{
+	box-shadow: 0.1em 0.1em 0.5em 0.5em #ccc;
+}
+.collocations .con .detail .bottom{
+	top: 19.7em;
+}
+.collocations .con .detail .bottom:hover{
+	box-shadow: 0.1em 0.1em 0.5em 0.5em #ccc;
+}
+
+.collocations .con .detail ul{
+	position: absolute;
+	left: 16.6em;
+	width: 61.6em;
+	height: 39.25em;
+}
+.collocations .con .detail ul li{
+	position: relative;
+	float: left;
+	display: block;
+	overflow: hidden;
+	width: 14.5em;
+	height: 19em;
+	margin-bottom: 0.7em;
+	margin-right: 0.5em;
+	text-align: center;
+	background: #fff;
+}
+.collocations .con .detail ul li:hover{
+	box-shadow: 0.1em 0.1em 0.5em 0.5em #ccc;
+}
+.collocations .con .detail ul li b{
+	position: absolute;
+	left: 6.5em;
+	width: 5em;
+	height: 1.3em;
+	font-weight: 500;
+	font-size: 0.8em;
+	background: #0f0;
+}
+.collocations .con .detail ul li span{
+	position: absolute;
+	left: 2.56em;
+	top: 2.1em;
+	width: 9.375em;
+	height: 9.375em;
+	cursor: pointer;
+}
+
+
+.collocations .con .detail ul li .title1{
+	position: absolute;
+	left: 0.1em;
+	top: 14em;
+	width: 16em;
+	height: 1.2em;
+	font-size: 0.9em;
+	font-weight: 500;
+	font-style: normal;
+	text-align: center;
+	cursor: pointer;
+}
+.collocations .con .detail ul li .costdown{
+	position: absolute;
+	left: 0.1em;
+	top: 16em;
+	width: 16em;
+	height: 1.2em;
+	font-size: 0.9em;
+	font-weight: 500;
+	font-style: normal;
+	text-align: center;
+	color: #999;
+	cursor: pointer;
+}
+.collocations .con .detail ul li .price{
+	position: absolute;
+	top: 18em;
+	left: 3.8em;
+	width: 4em;
+	height: 1.2em;
+	font-size: 0.9em;
+	font-weight: 500;
+	font-style: normal;
+	color: #f00;
+	cursor: pointer;
+}
+.collocations .con .detail ul li .price2{
+	position: absolute;
+	top: 18em;
+	left: 8.5em;
+	width: 4em;
+	height: 1.2em;
+	font-size: 0.9em;
+	font-weight: 500;
+	font-style: normal;
+	text-decoration: line-through;
+	color: #999;
+	cursor: pointer;
+}
+.collocations .con .detail ul li:nth-child(8){
+	position: relative;
+	float: left;
+	width: 14.5em;
+	height: 9.25em;
+	margin: 0 0.7em 0.5em 0;
+	background: #fff;
+}
+.collocations .con .detail ul li:nth-child(8) span{
+	position: absolute;
+	left: 8.5em;
+	top: 2em;
+	width: 5em;
+	height: 5em;
+	cursor: pointer;
+}
+.collocations .con .detail ul li:nth-child(8) .title1{
+	position: absolute;
+	left: 2em;
+	top: 3.5em;
+	width: 9em;
+	height: 2em;
+	text-align: left;
+	cursor: pointer;
+}
+.collocations .con .detail ul li:nth-child(8) .price{
+	position: absolute;
+	left: 2em;
+	top: 5.5em;
+	width: 5em;
+	height: 2em;
+	text-align: left;
+	cursor: pointer;
+}
+.collocations .con .detail ul li:nth-child(9){
+	position: relative;
+	float: left;
+	width: 14.5em;
+	height: 9.25em;
+	margin: 0 0.7em 0.5em 0;
+	cursor: pointer;
+	background: #fff;
+}
+.collocations .con .detail ul li:nth-child(9) i:nth-child(1){
+	position: absolute;
+	left: 2em;
+	top: 3em;
+	width: 4em;
+	height: 2em;
+	font-style: normal;
+	font-size: 0.9em;
+}
+.collocations .con .detail ul li:nth-child(9) i:nth-child(2){
+	position: absolute;
+	left: 2em;
+	top: 5em;
+	width: 4em;
+	height: 2em;
+	font-style: normal;
+	font-size: 0.9em;
+	text-align: left;
+}
+.collocations .con .detail ul li:nth-child(9) i:nth-child(3){
+	position: absolute;
+	left: 8em;
+	top: 2.7em;
+	display: block;
+	width: 2.8em;
+	height: 2.8em;
+	font-style: normal;
+	border-radius: 50%;
+	border: 0.3em solid #f60;
+}
+.collocations .con .detail ul li:nth-child(9) i:nth-child(4){
+	position: absolute;
+	left: 3.5em;
+	top: 1em;
+	display: block;
+	width: 1em;
+	height: 1em;
+	font-style: normal;
+	font-size: 2.5em;
+	color: #f60;
+}
+.collocations .con .detail ul li:nth-child(9) i:nth-child(5){
+	position: absolute;
+	left: 8.9em;
+	top: 4.22em;
+	display: block;
+	width: 1.2em;
+	border: 0.125em solid #f60;
+}
+
+
+.assy{
+	width: 100%;
+	height: 44em;
+	background: #eee;
+}
+.assy .con{
+	width: 76.6em;
+	height: 44em;
+	margin: 0 auto;
+}
+.assy .con .title{
+	position: relative;
+	width: 76.6em;
+	height: 3.625em;
+}
+
+.assy .con .title p:nth-child(1){
+	position: absolute;
+	width: 8em;
+	height: 2.6em;
+	font-weight: 200;
+	font-size: 1.4em;
+	line-height: 2.6em;
+	color: #000;
+}
+.assy .con .title p:nth-child(2){
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 17em;
+	height: 3.625em;
+}
+
+.assy .con .title p i{
+	padding: 0.2em 0.5em;
+	font-style: normal;
+	line-height: 3.225em;
+	cursor: pointer;
+}
+.assy .con .title p .checked{
+	border-bottom: 0.2em solid #f00;
+	color: #f00;
+}
+.assy .con .detail{
+	position: relative;
+	width: 76.6em;
+	height: 39.25em;
+	margin-top: 1em;
+}
+.assy .con .detail span{
+	position: absolute;
+	top: 0;
+	display: block;
+	width: 14.6em;
+	height: 19em;
+	cursor: pointer;
+}
+
+.assy .con .detail .top{
+	top: 0;
+}
+.assy .con .detail .top:hover{
+	box-shadow: 0.1em 0.1em 0.5em 0.5em #ccc;
+}
+.assy .con .detail .bottom{
+	top: 19.7em;
+}
+.assy .con .detail .bottom:hover{
+	box-shadow: 0.1em 0.1em 0.5em 0.5em #ccc;
+}
+
+.assy .con .detail ul{
+	position: absolute;
+	left: 16.6em;
+	width: 61.6em;
+	height: 39.25em;
+}
+.assy .con .detail ul li{
+	position: relative;
+	float: left;
+	display: block;
+	overflow: hidden;
+	width: 14.5em;
+	height: 19em;
+	margin-bottom: 0.7em;
+	margin-right: 0.5em;
+	text-align: center;
+	background: #fff;
+}
+.assy .con ul li:hover{
+	box-shadow: 0.1em 0.1em 0.5em 0.5em #ccc;
+}
+.assy .con .detail ul li b{
+	position: absolute;
+	left: 6.5em;
+	width: 5em;
+	height: 1.3em;
+	font-weight: 500;
+	font-size: 0.8em;
+	background: #0f0;
+ 
+}
+.assy .con .detail ul li span{
+	position: absolute;
+	left: 2.56em;
+	top: 2.1em;
+	width: 9.375em;
+	height: 9.375em;
+	cursor: pointer;
+}
+
+
+.assy .con .detail ul li .title1{
+	position: absolute;
+	left: 0.1em;
+	top: 14em;
+	width: 16em;
+	height: 1.2em;
+	font-size: 0.9em;
+	font-weight: 500;
+	font-style: normal;
+	text-align: center;
+	cursor: pointer;
+}
+.assy .con .detail ul li .costdown{
+	position: absolute;
+	left: 0.1em;
+	top: 16em;
+	width: 16em;
+	height: 1.2em;
+	font-size: 0.9em;
+	font-weight: 500;
+	font-style: normal;
+	text-align: center;
+	color: #999;
+	cursor: pointer;
+}
+.assy .con .detail ul li .price{
+	position: absolute;
+	top: 18em;
+	left: 3.8em;
+	width: 4em;
+	height: 1.2em;
+	font-size: 0.9em;
+	font-weight: 500;
+	font-style: normal;
+	color: #f00;
+	cursor: pointer;
+}
+.assy .con .detail ul li .price2{
+	position: absolute;
+	top: 18em;
+	left: 8.5em;
+	width: 4em;
+	height: 1.2em;
+	font-size: 0.9em;
+	font-weight: 500;
+	font-style: normal;
+	text-decoration: line-through;
+	color: #999;
+	cursor: pointer;
+}
+.assy .con .detail ul li:nth-child(8){
+	position: relative;
+	float: left;
+	width: 14.5em;
+	height: 9.25em;
+	margin: 0 0.7em 0.5em 0;
+	background: #fff;
+}
+.assy .con .detail ul li:nth-child(8) span{
+	position: absolute;
+	left: 8.5em;
+	top: 2em;
+	width: 5em;
+	height: 5em;
+	cursor: pointer;
+}
+.assy .con .detail ul li:nth-child(8) .title1{
+	position: absolute;
+	left: 2em;
+	top: 3.5em;
+	width: 9em;
+	height: 2em;
+	text-align: left;
+	cursor: pointer;
+}
+.assy .con .detail ul li:nth-child(8) .price{
+	position: absolute;
+	left: 2em;
+	top: 5.5em;
+	width: 5em;
+	height: 2em;
+	text-align: left;
+	cursor: pointer;
+}
+.assy .con .detail ul li:nth-child(9){
+	position: relative;
+	float: left;
+	width: 14.5em;
+	height: 9.25em;
+	margin: 0 0.7em 0.5em 0;
+	cursor: pointer;
+	background: #fff;
+}
+.assy .con .detail ul li:nth-child(9) i:nth-child(1){
+	position: absolute;
+	left: 2em;
+	top: 3em;
+	width: 4em;
+	height: 2em;
+	font-style: normal;
+	font-size: 0.9em;
+}
+.assy .con .detail ul li:nth-child(9) i:nth-child(2){
+	position: absolute;
+	left: 2em;
+	top: 5em;
+	width: 4em;
+	height: 2em;
+	font-style: normal;
+	font-size: 0.9em;
+	text-align: left;
+}
+.assy .con .detail ul li:nth-child(9) i:nth-child(3){
+	position: absolute;
+	left: 8em;
+	top: 2.7em;
+	display: block;
+	width: 2.8em;
+	height: 2.8em;
+	font-style: normal;
+	border-radius: 50%;
+	border: 0.3em solid #f60;
+}
+.assy .con .detail ul li:nth-child(9) i:nth-child(4){
+	position: absolute;
+	left: 3.5em;
+	top: 1em;
+	display: block;
+	width: 1em;
+	height: 1em;
+	font-style: normal;
+	font-size: 2.5em;
+	color: #f60;
+}
+.assy .con .detail ul li:nth-child(9) i:nth-child(5){
+	position: absolute;
+	left: 8.9em;
+	top: 4.22em;
+	display: block;
+	width: 1.2em;
+	border: 0.125em solid #f60;
+}
+
+
+.source{
+	width: 100%;
+	height: 44em;
+	background: #eee;
+}
+.source .con{
+	width: 76.6em;
+	height: 44em;
+	margin: 0 auto;
+}
+.source .con .title{
+	position: relative;
+	width: 76.6em;
+	height: 3.625em;
+}
+
+.source .con .title p:nth-child(1){
+	position: absolute;
+	width: 8em;
+	height: 2.6em;
+	font-weight: 200;
+	font-size: 1.4em;
+	line-height: 2.6em;
+	color: #000;
+}
+.source .con .title p:nth-child(2){
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 17em;
+	height: 3.625em;
+}
+
+.source .con .title p i{
+	padding: 0.2em 0.5em;
+	font-style: normal;
+	line-height: 3.225em;
+	cursor: pointer;
+}
+.source .con .title p .checked{
+	border-bottom: 0.2em solid #f00;
+	color: #f00;
+}
+.source .con .detail{
+	position: relative;
+	width: 76.6em;
+	height: 39.25em;
+	margin-top: 1em;
+}
+.source .con .detail span{
+	position: absolute;
+	top: 0;
+	display: block;
+	width: 14.6em;
+	height: 19em;
+	cursor: pointer;
+}
+
+.source .con .detail .top{
+	top: 0;
+}
+.source .con .detail .top:hover{
+	box-shadow: 0.1em 0.1em 0.5em 0.5em #ccc;
+}
+.source .con .detail .bottom{
+	top: 19.7em;
+}
+.source .con .detail .bottom:hover{
+	box-shadow: 0.1em 0.1em 0.5em 0.5em #ccc;
+}
+
+.source .con .detail ul{
+	position: absolute;
+	left: 16.6em;
+	width: 61.6em;
+	height: 39.25em;
+}
+.source .con .detail ul li{
+	position: relative;
+	float: left;
+	display: block;
+	overflow: hidden;
+	width: 14.5em;
+	height: 19em;
+	margin-bottom: 0.7em;
+	margin-right: 0.5em;
+	text-align: center;
+	background: #fff;
+}
+.source .con ul li:hover{
+	box-shadow: 0.1em 0.1em 0.5em 0.5em #ccc;
+}
+.source .con .detail ul li b{
+	position: absolute;
+	left: 6.5em;
+	width: 5em;
+	height: 1.3em;
+	font-weight: 500;
+	font-size: 0.8em;
+	background: #0f0;
+}
+.source .con .detail ul li span{
+	position: absolute;
+	left: 2.56em;
+	top: 2.1em;
+	width: 9.375em;
+	height: 9.375em;
+	cursor: pointer;
+}
+
+
+.source .con .detail ul li .title1{
+	position: absolute;
+	left: 0.1em;
+	top: 14em;
+	width: 16em;
+	height: 1.2em;
+	font-size: 0.9em;
+	font-weight: 500;
+	font-style: normal;
+	text-align: center;
+	cursor: pointer;
+}
+.source .con .detail ul li .costdown{
+	position: absolute;
+	left: 0.1em;
+	top: 16em;
+	width: 16em;
+	height: 1.2em;
+	font-size: 0.9em;
+	font-weight: 500;
+	font-style: normal;
+	text-align: center;
+	color: #999;
+	cursor: pointer;
+}
+.source .con .detail ul li .price{
+	position: absolute;
+	top: 18em;
+	left: 3.8em;
+	width: 4em;
+	height: 1.2em;
+	font-size: 0.9em;
+	font-weight: 500;
+	font-style: normal;
+	color: #f00;
+	cursor: pointer;
+}
+.source .con .detail ul li .price2{
+	position: absolute;
+	top: 18em;
+	left: 8.5em;
+	width: 4em;
+	height: 1.2em;
+	font-size: 0.9em;
+	font-weight: 500;
+	font-style: normal;
+	text-decoration: line-through;
+	color: #999;
+	cursor: pointer;
+}
+.source .con .detail ul li:nth-child(8){
+	position: relative;
+	float: left;
+	width: 14.5em;
+	height: 9.25em;
+	margin: 0 0.7em 0.5em 0;
+	background: #fff;
+}
+.source .con .detail ul li:nth-child(8) span{
+	position: absolute;
+	left: 8.5em;
+	top: 2em;
+	width: 5em;
+	height: 5em;
+	cursor: pointer;
+}
+.source .con .detail ul li:nth-child(8) .title1{
+	position: absolute;
+	left: 2em;
+	top: 3.5em;
+	width: 9em;
+	height: 2em;
+	text-align: left;
+	cursor: pointer;
+}
+.source .con .detail ul li:nth-child(8) .price{
+	position: absolute;
+	left: 2em;
+	top: 5.5em;
+	width: 5em;
+	height: 2em;
+	text-align: left;
+	cursor: pointer;
+}
+.source .con .detail ul li:nth-child(9){
+	position: relative;
+	float: left;
+	width: 14.5em;
+	height: 9.25em;
+	margin: 0 0.7em 0.5em 0;
+	cursor: pointer;
+	background: #fff;
+}
+.source .con .detail ul li:nth-child(9) i:nth-child(1){
+	position: absolute;
+	left: 2em;
+	top: 3em;
+	width: 4em;
+	height: 2em;
+	font-style: normal;
+	font-size: 0.9em;
+}
+.source .con .detail ul li:nth-child(9) i:nth-child(2){
+	position: absolute;
+	left: 2em;
+	top: 5em;
+	width: 4em;
+	height: 2em;
+	font-style: normal;
+	font-size: 0.9em;
+	text-align: left;
+}
+.source .con .detail ul li:nth-child(9) i:nth-child(3){
+	position: absolute;
+	left: 8em;
+	top: 2.7em;
+	display: block;
+	width: 2.8em;
+	height: 2.8em;
+	font-style: normal;
+	border-radius: 50%;
+	border: 0.3em solid #f60;
+}
+.source .con .detail ul li:nth-child(9) i:nth-child(4){
+	position: absolute;
+	left: 3.5em;
+	top: 1em;
+	display: block;
+	width: 1em;
+	height: 1em;
+	font-style: normal;
+	font-size: 2.5em;
+	color: #f60;
+}
+.source .con .detail ul li:nth-child(9) i:nth-child(5){
+	position: absolute;
+	left: 8.9em;
+	top: 4.22em;
+	display: block;
+	width: 1.2em;
+	border: 0.125em solid #f60;
+}
+
+
+.recommend{
+	width: 100%;
+	height: 28.3em;
+	background: #eee;
+}
+.recommend .con{
+	width: 76.6em;
+	height: 28.3em;
+	margin: 0 auto;	
+}
+.recommend .con .title{
+	position: relative;
+	width: 76.6em;
+	height: 3.625em;
+}
+.recommend .con .title p{
+	width: 8em;
+	height: 2.6em;
+	font-weight: 200;
+	font-size: 1.4em;
+	line-height: 2.6em;
+	color: #000;
+}
+.recommend .con .title p span{
+	position: absolute;
+	display: block;
+	width: 2.2em;
+	height: 1em;
+	border: 0.08em solid #bbb;
+	line-height: 1em;
+	font-weight: bold;
+	text-align: center;
+	color: #999;
+	cursor: pointer;
+}
+
+.recommend .con .title .left{
+	top: 1em;
+	right: 2.4em;
+}
+.recommend .con .title .right{
+	top: 1em;
+	right: 0.2em;
+}
+.recommend .con .title span:hover{
+	color: #f00;
+}
+
+.recommend .con ul{
+	width: 76.6em;
+	height: 25em;
+	margin: 0.63em auto;
+}
+.recommend .con .left1{
+	visibility: visible;
+}
+.recommend .con .right1{
+	visibility: hidden;
+}
+.recommend .con ul{
+	position: absolute;
+}
+.recommend .con ul li{
+	float: left;
+	width: 14.75em;
+	height: 21em;
+	margin-right: 0.7em;
+	background: #fff;
+}
+.recommend .con ul li:hover{
+	box-shadow: 0.1em 0.1em 0.5em 0.5em #ccc;
+}
+.recommend .con ul li:nth-child(5){
+	margin-right: 0;
+}
+.recommend .con ul li span{
+	display: block;
+	width: 10em;
+	height: 10em;
+	margin: 2.44em 0 0 2.35em;
+	cursor: pointer;
+}
+
+.recommend .con ul li:nth-child(5){
+	margin-right: 0;
+}
+.recommend .con ul li b{
+	display: block;
+	height: 1em;
+	margin: 2em auto 0;
+	font-weight: 500;
+	text-align: center;
+	cursor: pointer;
+}
+.recommend .con ul li i{
+	display: block;
+	height: 1em;
+	margin: 0.8em auto 0;
+	font-size: 0.8em;
+	font-weight: 500;
+	font-style: normal;
+	text-align: center;
+	color: #999;
+	cursor: pointer;
+}
+.recommend .con ul li em{
+	display: block;
+	height: 1em;
+	margin: 1.2em auto 0;
+	font-size: 0.8em;
+	font-weight: 500;
+	font-style: normal;
+	text-align: center;
+	color: #f00;
+	cursor: pointer;
+}
+
+.discuss{
+	width: 100%;
+	height: 31em;
+	background: #eee;
+}
+.discuss .con{
+	width: 76.6em;
+	height: 31em;
+	margin: 0 auto;
+}
+.discuss .con .title{
+	position: relative;
+	width: 76.6em;
+	height: 3.625em;
+}
+.discuss .con .title p{
+	width: 8em;
+	height: 2.6em;
+	font-weight: 200;
+	font-size: 1.4em;
+	line-height: 2.6em;
+	color: #000;
+}
+
+.discuss .con ul{
+	width: 76.6em;
+	height: 26.3em;
+	margin: 0.63em auto;
+}
+
+.discuss .con ul li{
+	position: relative;
+	float: left;
+	width: 18.55em;
+	height: 26.3em;
+	margin-right: 0.8em;
+	background: #fff;
+}
+.discuss .con ul li:hover{
+	box-shadow: 0.1em 0.1em 0.5em 0.5em #ccc;
+}
+.discuss .con ul li:nth-child(4){
+	margin-right: 0;
+}
+.discuss .con ul li span{
+	display: block;
+	width: 18.55em;
+	height: 13.6em;
+	margin: 0;
+	cursor: pointer;
+}
+
+.discuss .con ul li i{
+	position: absolute;
+	top: 17em;
+	left: 1.5em;
+	display: block;
+	width: 17em;
+	height: 1em;
+	font-size: 0.9em;
+	font-style: normal;
+	text-align: left;
+	color: #000;
+	cursor: pointer;
+}
+
+.discuss .con ul li em{
+	position: absolute;
+	top: 23.5em;
+	left: 1.5em;
+	height: 1em;
+	font-size: 0.9em;
+	font-style: normal;
+	text-align: center;
+	color: #000;
+	cursor: pointer;
+}
+.discuss .con ul li p{
+	position: absolute;
+	top: 23em;
+	left: 1em;
+	width: 17em;
+	height: 1.2em;
+}
+.discuss .con ul li p b{
+	position: absolute;
+	top: 0;
+	left: 0.2em;
+	width: 10em;
+	height: 1.2em;
+	line-height: 1.2em;
+	font-weight: 500;
+	text-align: left;
+	cursor: pointer;
+
+}
+.discuss .con ul li p em{
+	position: absolute;
+	top: 0;
+	left: 11em;
+	width: 4em;
+	height: 1.2em;
+	padding: 0 1em;
+	border-left: 0.1em solid #ddd;
+	line-height: 1.2em;
+	font-style: normal;
+	text-align: left;
+	color: #f00;
+	cursor: pointer;
+}
+
+
+
+.content{
+	width: 100%;
+	height: 31em;
+	background: #eee;
+}
+.content .con{
+	width: 76.6em;
+	height: 31em;
+	margin: 0 auto;
+}
+.content .con .title{
+	position: relative;
+	width: 76.6em;
+	height: 3.625em;
+}
+.content .con .title p{
+	width: 8em;
+	height: 2.6em;
+	font-weight: 200;
+	font-size: 1.4em;
+	line-height: 2.6em;
+	color: #000;
+}
+
+.content .con ul{
+	width: 76.6em;
+	height: 26.3em;
+	margin: 0.63em auto;
+}
+
+.content .con ul li{
+	position: relative;
+	float: left;
+	width: 18.55em;
+	height: 26.3em;
+	margin-right: 0.8em;
+	background: #fff;
+}
+.content .con ul li:hover{
+	box-shadow: 0.1em 0.1em 0.5em 0.5em #ccc;
+}
+.content .con ul li:nth-child(4){
+	margin-right: 0;
+}
+.content .con ul li span{
+	position: absolute;
+	top: 12.625em;
+	left: 2.5em;
+	display: block;
+	width: 13.5em;
+	height: 9.6em;
+	margin: 0;
+	cursor: pointer;
+}
+
+.content .con ul li i{
+	position: absolute;
+	top: 8em;
+	left: 1.5em;
+	display: block;
+	width: 17em;
+	height: 1em;
+	font-size: 0.9em;
+	font-style: normal;
+	text-align: center;
+	color: #999;
+	cursor: pointer;
+}
+
+.content .con ul li em{
+	position: absolute;
+	top: 12em;
+	left: 1.5em;
+	width: 17em;
+	height: 1em;
+	font-size: 0.9em;
+	font-style: normal;
+	text-align: center;
+	color: #000;
+	cursor: pointer;
+}
+
+.content .con ul li p:nth-child(1) b{
+	position: absolute;
+	top: 2em;
+	left: 0.2em;
+	width: 17em;
+	height: 1.2em;
+	line-height: 1.2em;
+	font-weight: 500;
+	text-align: center;
+	cursor: pointer;
+	color: #f60;
+}
+.content .con ul li p:nth-child(2) em{
+	position: absolute;
+	top: 3.5em;
+	left: 1em;
+	width: 12em;
+	height: 1.2em;
+	line-height: 1.2em;
+	font-size: 1.25em;
+	font-style: normal;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+.video{
+	width: 100%;
+	height: 24em;
+	background: #eee;
+}
+.video .con{
+	width: 76.6em;
+	height: 24em;
+	margin: 0 auto;
+}
+.video .con .title{
+	position: relative;
+	width: 76.6em;
+	height: 3.625em;
+}
+.video .con .title p{
+	width: 8em;
+	height: 2.6em;
+	font-weight: 200;
+	font-size: 1.4em;
+	line-height: 2.6em;
+	color: #000;
+}
+
+.video .con ul{
+	width: 76.6em;
+	height: 18.3em;
+	margin: 0.63em auto;
+}
+
+.video .con ul li{
+	position: relative;
+	float: left;
+	width: 18.55em;
+	height: 18.3em;
+	margin-right: 0.8em;
+	background: #fff;
+}
+
+.video .con ul li:nth-child(4){
+	margin-right: 0;
+}
+.video .con ul li:hover{
+	box-shadow: 0.1em 0.1em 0.5em 0.5em #ccc;
+}
+.video .con ul li span{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 18.5em;
+	height: 11.25em;
+	margin: 0;
+	cursor: pointer;
+}
+
+.video .con ul li i{
+	position: absolute;
+	top: 14.5em;
+	display: block;
+	width: 20.6em;
+	height: 1.2em;
+	line-height: 1.2em;
+	font-size: 0.9em;
+	font-style: normal;
+	text-align: center;
+	color: #000;
+	cursor: pointer;
+}
+
+.video .con ul li em{
+	position: absolute;
+	top: 18em;
+	display: block;
+	width: 23.19em;
+	height: 1.2em;
+	line-height: 1.2em;
+	font-size: 0.8em;
+	font-style: normal;
+	text-align: center;
+	color: #aaa;
+	cursor: pointer;
+}
+.video .con ul li p{
+	position: absolute;
+	top: 9em;
+	left: 1em;
+	width: 2em;
+	height: 1.2em;
+	border: 0.2em solid #fff;
+	border-radius: 35%;
+}
+
+.video .con ul li div{
+	position: absolute;
+	top: 9.2em;
+	left: 2em;
+	display: block;
+	width: 0;
+	height: 0;
+	border-width: 0.6em;
+	border-style: solid;
+	border-color: transparent transparent transparent #fff;
+}
+
+.aftersale{
+	width: 100%;
+	height: 17em;
+	background: #fff;
+}
+.aftersale .con{
+	width: 76.6em;
+	height: 17em;
+	margin: 0 auto;
+}
+.aftersale .con .top{
+	width: 76.6em;
+	height: 5em;
+}
+.aftersale .con .top ul{
+	width: 76.6em;
+	height: 5em;
+	border-bottom: 0.1em solid #ccc;
+}
+.aftersale .con .top ul li{
+	float: left;
+	width: 14.2em;
+	height: 1.6em;
+	padding: 1.6em 0.5em;
+}
+.aftersale .con .top ul li span{
+	display: block;
+	width: 13em;
+	height: 1.2em;
+	border-right: 0.1em solid #ccc;
+	font-size: 1.2em;
+	line-height: 1.2em;
+	text-align: center;
+	color: #777;
+	cursor: pointer;
+}
+.aftersale .con .top ul li span:hover{
+	color: #f00;
+}
+.aftersale .con .top ul li:nth-child(5) span{
+	border: none;
+}
+.aftersale .con .bottom{
+	position: relative;
+	width: 76.6em;
+	height: 12em;
+}
+.aftersale .con .bottom .title{
+	position: absolute;
+	top: 2em;
+	width: 61.6em;
+	height: 1.2em;
+}
+.aftersale .con .bottom .title li{
+	float: left;
+	width: 10em;
+	height: 1.2em;
+}
+.aftersale .con .bottom .des{
+	position: absolute;
+	top: 5em;
+	width: 61.6em;
+	height: 6em;
+}
+.aftersale .con .bottom .des li{
+	float: left;
+	width: 11em;
+	height: 1.8em;
+	line-height: 1.8em;
+	font-size: 0.9em;
+	color: #555;
+	cursor: pointer;
+}
+.aftersale .con .bottom .des li:hover{
+	color: #f00;
+}
+.aftersale .con .bottom .tel{
+	position: absolute;
+	top: 2em;
+	left: 62em;
+	width: 14em;
+	height: 8em;
+	border-left: 0.1em solid #ccc;
+}
+.aftersale .con .bottom .tel li:nth-child(1){
+	position: absolute;
+	top: 1em;
+	left: 2em;
+	width: 7em;
+	height: 1.2em;
+	font-size: 1.2em;
+	color: #f60;
+}
+.aftersale .con .bottom .tel li:nth-child(2){
+	position: absolute;
+	top: 3.5em;
+	left: 2em;
+	width: 11em;
+	height: 1.2em;
+	font-size: 0.9em;
+	color: #000;
+}
+.aftersale .con .bottom .tel li:nth-child(3){
+	position: absolute;
+	top: 5em;
+	left: 3.3em;
+	width: 7em;
+	height: 1.2em;
+	font-size: 0.9em;
+	color: #000;
+}
+.aftersale .con .bottom .tel li:nth-child(4){
+	position: absolute;
+	top: 7em;
+	left: 3.2em;
+	width: 7.6em;
+	height: 1.3em;
+	padding: 0.2em 0.3em;
+	font-size: 0.9em;
+	border: 0.1em solid #f60;
+	color: #f60;
+	cursor: pointer;
+}
+.aftersale .con .bottom .tel li:nth-child(4):hover{
+	color: #fff;
+	background: #f00;
+}
+
+
+.footer{
+	width: 100%;
+	height: 8em;
+}
+.footer .con{
+	width: 76.6em;
+	height: 8em;
+	margin: 0 auto;
+}
+.footer .con .logo{
+	float: left;
+	width: 3.56em;
+	height: 3.56em;
+	margin-right: 0.63em;
+}
+.footer .con .logo img{
+	width: 100%;
+	height: 100%;
+}
+.footer .con .text{
+	float: left;
+	width: 48em;
+	height: 3.56em;
+}
+.footer .con .text ul{
+	width: 61em;
+	height: 1.5em;
+	font-size: 0.8em;
+	line-height: 1.5em;
+}
+.footer .con .text ul li{
+	float: left;
+	padding: 0 0.3em;
+	border-right: 0.1em solid #999;
+	cursor: pointer;
+}
+
+.footer .con .text ul li:nth-child(12){
+	border: none;
+}
+.footer .con .text ul:nth-child(2) li{
+	border: none;
+	color: #999;
+}
+.footer .con .text ul li:hover{
+	color: #f00;
+}
+.footer .con .text p{
+	width: 61em;
+	height: 1.5em;
+	padding: 0 0.3em;
+	font-size: 0.8em;
+	line-height: 1.5em;
+	color: #999;
+}
+.footer .con .links{
+	float: left;
+	width: 22em;
+	height: 2.3em;
+	margin: 0.5em 1em;
+
+}
+.footer .con .links span{
+	float: left;
+	width: 5.2em;
+	height: 1.75em;
+}
+
+.footer .con .ailogo{
+	clear: both;
+	width: 76.6em;
+	height: 3.56em;
+}
+
+.footer .con .ailogo p{
+	width: 58.9em;
+	height: 2.7em;
+	margin-top: 3em;
+	line-height: 2.7em;
+	font-size: 1.3em;
+	font-family: "楷体";
+	text-align: center;
+	color: #aaa;
+}
